@@ -1,0 +1,10 @@
+# Squirrel custom settings
+# encoding: utf-8
+
+patch:
+  style/horizontal: true
+  #style/font_face: 幼圆
+  style/font_point: 19
+
+  app_options/org.gnu.Emacs:
+    ascii_mode: true

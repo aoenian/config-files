@@ -1,0 +1,5 @@
+# double_pinyin_flypy.custom.yaml
+# encoding: utf-8
+
+patch:
+  translator/preedit_format: {}    #输入双拼码的时候不转换为全拼

@@ -1,0 +1,10 @@
+patch:
+  "style/display_tray_icon": true  # 是否在状态栏显示输入法图标
+  "style/horizontal": true  # 横竖排
+  "style/font_face": 幼圆
+  "style/font_point": 15
+
+  app_options/gvim.exe:
+    ascii_mode: true
+  app_options/cmd.exe:
+    ascii_mode: true

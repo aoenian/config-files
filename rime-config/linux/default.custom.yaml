@@ -1,0 +1,22 @@
+# default.custom.yaml
+# Rime default settings
+# encoding: utf-8
+
+# inline_ascii 在输入法的临时西文编辑区内输入字母、数字、符号、空格等，回车上屏后自动复位到中文
+# commit_text 已输入的候选文字上屏并切换至西文输入模式
+# commit_code 已输入的编码字符上屏并切换至西文输入模式
+# 设为 noop, 屏蔽该切换键
+
+
+patch:
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_code
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+  schema_list:
+    - schema: double_pinyin_flypy   # 小鶴双拼
+    - schema: luna_pinyin
+  “menu/page_size”:5

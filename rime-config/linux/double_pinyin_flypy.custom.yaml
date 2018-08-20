@@ -1,0 +1,8 @@
+# double_pinyin_flypy.custom.yaml
+# encoding: utf-8
+# 由于linux系统里面rime输入法安装后，所有的默认输入都是中文，而且作者还没有添加
+# 特定程序使用英文输入的功能，所以就让rime输入法默认英文
+
+patch:
+  translator/preedit_format: {}    #输入双拼码的时候不转换为全拼
+  "switches/@0/reset": 1	# 表示將 switcher 列表中的第一個元素（即 ascii_mode 開關）的初始值重設爲狀態1（即「英文」）
