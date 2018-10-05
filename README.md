@@ -5,4 +5,7 @@ Includes：
 
 > - vim
 > - Rime
+> - Emacs
+
+
 
